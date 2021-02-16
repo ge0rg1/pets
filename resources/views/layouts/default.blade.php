@@ -3,6 +3,8 @@
 @include('layouts.partials.head')
 <body>
 
+@include('layouts.partials.nav')
+
 @yield('content')
 
 <script src="{{ mix('js/app.js') }}"></script>

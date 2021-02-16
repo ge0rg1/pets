@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StorePet;
 use App\Models\Pet;
+use App\Models\PetType;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
@@ -32,7 +33,11 @@ class PetController extends Controller
      */
     public function create()
     {
-        return view('pet.create');
+        $petTypes = PetType::all();
+
+        return view('pet.create', [
+            'petTypes' => $petTypes,
+        ]);
     }
 
     /**
