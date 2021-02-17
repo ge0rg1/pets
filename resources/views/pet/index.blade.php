@@ -2,6 +2,12 @@
 
 @section('content')
     <div class="container">
+        @if(session()->has('alert-success'))
+            <div class="alert alert-success mt-5">
+                {{ session()->get('alert-success') }}
+            </div>
+        @endif
+
         @if($pets->isEmpty())
             @if(request()->get('submit'))
                 @include('partials.components.heading', ['pageHeading' => 'Няма намерени резултати'])
@@ -21,13 +27,13 @@
                             <th>Дата на добавяне</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="context">
                         @foreach($pets as $pet)
                             <tr>
-                                <td class="context">{{ $pet->name }}</td>
-                                <td>{{ optional($pet->petType)->name }}</td>
-                                <td>{{ $pet->description }}</td>
-                                <td>{{ $pet->created_at->format('d.m.Y') }}</td>
+                                <td>{{ $pet->name }}</td>
+                                <td class="exclude-highlight">{{ optional($pet->petType)->name }}</td>
+                                <td class="exclude-highlight">{{ $pet->description }}</td>
+                                <td class="exclude-highlight">{{ $pet->created_at->format('d.m.Y') }}</td>
                             </tr>
                         @endforeach
                         </tbody>
@@ -40,8 +46,12 @@
 
 @section('custom-js')
     <script>
-        const instance = new Mark(document.querySelector('td.context'));
+        const instance = new Mark(document.querySelector('tbody.context'));
         instance.mark("{{ request()->get('name', '') }}", {
+            'exclude': [
+                '.exclude-highlight',
+            ],
+            'acrossElements': true,
             'element': 'span',
             'className': 'highlight',
         });

@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col">
-        <div class="card @if(!request()->get('submit')) mt-5 @endif">
+        <div class="card @if(!request()->get('submit') && !session()->has('alert-success')) mt-5 @endif">
             <h5 class="card-header">
                 Намери
             </h5>

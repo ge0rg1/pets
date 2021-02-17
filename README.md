@@ -4,3 +4,4 @@
 - run ```build.sh```
 - run ```php artisan migrate```
 - run ```php artisan db:seed```
+- run project ```php artisan serve```
