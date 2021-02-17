@@ -25,7 +25,7 @@ class StorePet extends FormRequest
     public function rules()
     {
         return [
-            'type_id'     => 'required|integer|exists:'.PetType::getTableName().',id',
+            'pet_type_id' => 'required|integer|exists:'.PetType::getTableName().',id',
             'name'        => 'required|string',
             'description' => 'required|string',
         ];

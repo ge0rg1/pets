@@ -24,7 +24,7 @@ class Pet extends Model
      * @var array
      */
     protected $fillable = [
-        'type_id',
+        'pet_type_id',
         'name',
         'description',
     ];

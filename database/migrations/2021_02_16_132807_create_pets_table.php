@@ -14,8 +14,8 @@ class CreatePetsTable extends Migration
     public function up()
     {
         Schema::create('pets', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('type_id')->unsigned()->index();
+            $table->id();
+            $table->foreignId('pet_type_id')->constrained();
             $table->string('name');
             $table->text('description');
             $table->softDeletes();
