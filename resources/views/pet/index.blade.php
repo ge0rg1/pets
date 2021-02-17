@@ -51,7 +51,6 @@
             'exclude': [
                 '.exclude-highlight',
             ],
-            'acrossElements': true,
             'element': 'span',
             'className': 'highlight',
         });
