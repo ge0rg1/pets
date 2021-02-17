@@ -24,6 +24,7 @@
                             <option value="">Изберете...</option>
                             @foreach($petTypes as $type)
                                 <option
+                                    @if(request()->get('pet_type_id', '') == $type->id) selected @endif
                                     value="{{ $type->id }}"
                                 >{{ $type->name }}</option>
                             @endforeach
@@ -41,6 +42,7 @@
                             class="form-control"
                             id="name"
                             name="name"
+                            value="{{ request()->get('name', '') }}"
                         >
                     </div>
                     <button
