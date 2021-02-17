@@ -3,24 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54618c7d-893f-49e6-97b7-6eae0215594c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StorePet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StorePet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Pet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_16_132039_create_pets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_16_132807_create_pets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_16_132807_create_pet_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_16_132039_create_pet_types_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pet/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pet/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pet/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pet/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rebuild.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +166,7 @@
       <workItem from="1613481560289" duration="8954000" />
       <workItem from="1613496318188" duration="30000" />
       <workItem from="1613500267535" duration="4641000" />
-      <workItem from="1613539122864" duration="15809000" />
+      <workItem from="1613539122864" duration="17065000" />
     </task>
     <servers />
   </component>
